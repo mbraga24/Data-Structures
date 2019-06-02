@@ -14,7 +14,8 @@ LinkedList.prototype.addToHead = function(value) {
   if (this.head) {
     this.head.prev = newNode;
   } else {
-  // If the Linked List is empty set the tail node to the newNode because the newNode will be the only one in the list, therefore it will be both the head node and the tail node.
+  // If the Linked List is empty set the tail node to the newNode because the newNode will be the only one in the list, therefore
+  // it will be both the head node and the tail node.
     this.tail = newNode;
   }
   // Whether the Linked List was previously empty or not we will assign the new node to be the head of the list.
