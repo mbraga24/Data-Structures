@@ -1,4 +1,6 @@
-### data-structures
+# Data Structures
+
+## Linked Lists
 
 **Constant Time O(1)**
 - Adding/Removing head nodes
