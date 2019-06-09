@@ -60,7 +60,7 @@ logAll([1,2,3,4,5,6,7,8,9,10,11,12]);
 // Big-O Notation: "0 (n^2)"
 
 // :: This function gives every possible combination of pairs in the array. It iterates through the whole array
-// :: and on every element that it hits it goes through the whole array and hits on every element again. So all
+// :: and on every element that it hits and it goes through the whole array and hits on every element again. So all
 // :: possible pairs are made that's why there is 2 nested for loops.
 
 // !! If you write a function like this you won't notice the performance issue with very small inputs.
