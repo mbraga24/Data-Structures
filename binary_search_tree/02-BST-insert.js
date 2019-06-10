@@ -5,7 +5,7 @@ function BST(value) {
   this.right = null;
 }
 
-// Adding method to BST prototype
+// Adding method "insert" to BST prototype
 BST.prototype.insert = function(value) {
   if (value <= this.value) {
     if (!this.left) {
