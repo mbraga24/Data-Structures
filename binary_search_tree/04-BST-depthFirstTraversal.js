@@ -41,7 +41,7 @@ BST.prototype.contains = function(value) {
   }
 }
 
-// Adding method "depthFirstTraversal" to BST prototype
+// Adding method "depthFirstTraversal" (in order) to BST prototype
 BST.prototype.depthFirstTraversal = function(iteratorFunc) {
   if (this.left) {
     this.left.depthFirstTraversal(iteratorFunc);
