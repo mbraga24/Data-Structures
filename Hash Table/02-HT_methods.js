@@ -39,6 +39,7 @@ HashTable.prototype.insert = function(key, value) {
 
 let myHT = new HashTable(30);
 
+// Adding Hash Nodes
 
 myHT.insert('Dane', 'dane@gmail.com');
 myHT.insert('Becca', 'becca@gmail.com');
@@ -46,6 +47,8 @@ myHT.insert('Dean', 'dean@yahoo.com');
 myHT.insert('Carlos', 'carlos@gmail.com');
 myHT.insert('Mikael', 'mikael@yahoo.com');
 myHT.insert('Joanne', 'joanne@hotmail.com');
+
+// Updating Hash Nodes
 
 myHT.insert('Dane', 'danesmith@gmail.com');
 myHT.insert('Joanne', 'joanne1010@hotmail.com');
