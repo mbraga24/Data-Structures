@@ -29,4 +29,18 @@ Binary search trees are only performant when they are balanced. To have a balanc
 all or most of the nodes have a left or right child so you have a full tree. In case you notice that you have one side much larger 
 than the other the use of Linked List is advised.
 
+## Hash Table
+
+**Big O Notation**
+
+**Constant Time O(1)**
+- Adding/Removing data
+- Searching/Retrieving data
+
+**More Details**
+We can use Hash Tables to store data for just about anything. One draw back about hash tables is that since the insertion of data
+is done in a random way determined by the insertion function, in a lot of cases hash tables don't store references to other pieces 
+of data in the data structure like Linked Lists and Binary search trees do. But this functionally can be implemented in the hash table
+by placing specific properties on your hash nodes. 
+
 **Source: Summary of Udemy Courses:** https://bit.ly/2HkrVc0
